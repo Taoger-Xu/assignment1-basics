@@ -161,3 +161,11 @@ cython_debug/
 
 .ruff_cache/
 *.zip
+
+# Large local corpora, token arrays, training checkpoints, and experiment logs
+/data/
+/checkpoints/
+/swanlog/
+/ablations/
+/batch_size_experiment/
+/artifacts/
